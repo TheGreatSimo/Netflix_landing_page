@@ -35,3 +35,90 @@ export const faq = [
     Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.` 
   },
 ]
+
+
+export const link1 = [
+  {
+    id:0,
+    label:"FAQ",
+    href:"",
+  },
+  {
+    id:1,
+    label:"Investor Relations",
+    href:"",
+  },
+  {
+    id:2,
+    label:"Privacy",
+    href:"",
+  },
+  {
+    id:3,
+    label:"Speed test",
+    href:"",
+  },
+]
+
+export const link2 = [
+
+  {
+    id:0,
+    label:"Help Center",
+    href:"https://help.netflix.com/en/",
+  },
+  {
+    id:1,
+    label:"Jobs",
+    href:"",
+  },
+  {
+    id:2,
+    label:"Cookie Preferences ",
+    href:"",
+  },
+  {
+    id:3,
+    label:"Legal Notices",
+    href:"",
+  },
+]
+export const link3 = [
+    {
+      id:0,
+      label:"Acccount",
+      href:"",
+    },
+    {
+      id:1,
+      label:"Ways to Watch",
+      href:"",
+    },
+    {
+      id:2,
+      label:"Corporate Information",
+      href:"",
+    },
+    {
+      id:3,
+      label:"Only on Netflix",
+      href:"",
+    },
+  ]
+export const link4 = [
+    {
+      id:0,
+      label:"Media Center",
+      href:"",
+    },
+    {
+      id:1,
+      label:"Terms of Use",
+      href:"",
+    },
+    {
+      id:2,
+      label:"Contact Us",
+      href:"",
+    },
+  ]
