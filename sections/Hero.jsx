@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <section className="relative flex justify-center items-center h-screen  h-[700px]">
+    <section className="relative flex justify-center items-center   h-[700px]">
       <div className=' absolute z-0 inset-0 w-full  '>
         <Image src="/images/hero.jpeg" layout='fill' objectFit='cover' alt="hero image"  className='darkened-image' style={{ 'maxHeight' : '700px'}} />
       </div>
