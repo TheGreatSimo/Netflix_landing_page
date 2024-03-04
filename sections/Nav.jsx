@@ -1,23 +1,22 @@
 import Image from 'next/image'
-
-
 const Nav = () => {
   return (
-    <section className=' max-container flex justify-center '>
-      <div className='absolute w-full z-10 flex justify-between max-container mt-6  px-10  ' >
-          <div className='shadow-3xl' >
-            <Image src="/logo.png" width={140} height={40} alt="logo" />
-          </div>
-          <div className='flex justify-center gap-4'>
-            <select className='bg-[#141313] text-gray-200 text-lg rounded-lg px-8 py-1 font-poppins tracking-wider h-[35px] ' >
-              <option value="option1"> English </option>
-              <option value="option2">Français</option>
-              <option value="option3">العربية</option>
-            </select>
-            <button className='w-[76px] h-[35px] bg-customRed text-gray-200 rounded-md  border-[1px] border-black font-semibold cursor-pointer '>Sign in</button>
-          </div>
-      </div>
-    </section>
+    <div className="flex justify-center "  >
+      <nav className=" absolute flex justify-between  px-18 max-container z-10 mt-6 w-full ">
+        <div>
+          <Image src="/logo.png" width={150} height={40} alt="loto"  />
+
+        </div>
+        <div className='flex justify-center gap-4' >
+          <select className='bg-[#141313] h-[32px] w-[140px] text-gray-100 rounded-md text-center tracking-wider '>
+            <option value="option1">&#x1F1EC;&#x1F1E7;  English</option>
+            <option value="option2">&#x1F1EB;&#x1F1F7;  Français</option>
+            <option value="option3">&#x1F1F8;&#x1F1E6;  العربية</option>
+          </select>
+          <button className='bg-customRed w-20 h-[32px] text-white rounded-md border-black border-2 font-semibold'>Sign in</button>
+        </div>
+      </nav>
+    </div>
   )
 }
 
